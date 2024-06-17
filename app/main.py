@@ -10,7 +10,7 @@ import pandas as pd
 import streamlit as st
 
 GOOGLE_API_KEY = config('GOOGLE_API_KEY')
-MODEL_NAME = 'models/gemini-1.5-pro-latest'
+MODEL_NAME = 'models/gemini-pro-vision'
 
 prompt_template_str = """
         Give me the summary of the person in the image\
